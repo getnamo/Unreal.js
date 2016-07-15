@@ -345,9 +345,10 @@ function main() {
 
                     function tick() {
                         if (!elem.alive) return
-                        refresh()
+                        //refresh()
                         setTimeout(tick,1000)
                     }
+                    refresh();
 
                     elem.refresh = refresh
 
